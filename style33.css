@@ -4,14 +4,16 @@ body {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  color: #222222;
-  background-color: #f2f4f6;
+  color: #ffffff;
+  background-color: #11093d;
   background-image: url("img/1.jpg");
   background-repeat: no-repeat;
   background-position: top center;
+
 }
 
 .container {
+ 
   max-width: 928px;
   margin: 0 auto;
   padding: 0 16px;
@@ -26,7 +28,7 @@ body {
 .page-footer .container {
 
 
-  max-width: 2400px;
+  max-width: 120%;
   text-align: -webkit-right;
 color: #ffffff;
 }
@@ -77,6 +79,7 @@ color: #ffffff;
 
 .intro {
   margin: 0 0 120px;
+  background-image: linear-gradient(-110deg, #2996df, #11093d);
 }
 
 .subheading {
@@ -130,7 +133,7 @@ padding-top: 60px;
   padding: 0;
   height: 14px;
   font-size: 0;
-  background-color: #ffffff;
+  background-color: #ffffff28;
   border: 1px solid #86c3fa;
   border-radius: 8px;
 }
@@ -172,19 +175,19 @@ padding-top: 60px;
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 4px;
-  background-color: #288be6;
+  background-color: #000102;
   color: #ffffff;
 }
 
 .page-footer {
   padding: 20px 0;
-  background-color: #00417d;
+  background-image: linear-gradient(-110deg, #2996df, #11093d);
   color: #ffffff;
 }
 
 .page-footer a {
   margin-left: 5px;
-  color: #808080;
+  color: #000000;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: right;
@@ -198,4 +201,7 @@ padding-top: 60px;
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+.footer-kpa {
+  padding-right: 70%;
 }
